@@ -1,5 +1,5 @@
 <h1>Stalls</h1>
 
 <% @stalls.each do |stall| %>
-    <p><%= stall.name %></p>
+    <p><%= link_to stall.name, stall %></p>
 <% end %>
