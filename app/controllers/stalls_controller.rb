@@ -4,6 +4,6 @@ class StallsController < ApplicationController
   end
 
   def show
-    render json: Stall.find(params[:id])
+    @stall = Stall.find(params[:id])
   end
 end
