@@ -7,7 +7,6 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Stall.destroy_all
-Product.destroy_all
 
 tropical_photography = Stall.create(name: "Tropical Photography")
 handmade_gifts = Stall.create(name: "Handmade Gifts")
