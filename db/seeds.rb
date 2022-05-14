@@ -7,10 +7,15 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Stall.destroy_all
+Category.destroy_all
 
 tropical_photography = Stall.create(name: "Tropical Photography")
 handmade_gifts = Stall.create(name: "Handmade Gifts")
 yummy_pies = Stall.create(name: "Yummy Pies")
+
+art = Category.create(name: "Art")
+craft = Category.create(name: "Craft")
+food = Category.create(name: "Food")
 
 
 tropical_photography.products.create(name: "Sunset Photograph", description:"Picture taken at sunset", price: "$20")
